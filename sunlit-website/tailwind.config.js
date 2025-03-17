@@ -7,16 +7,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#F9AA33',  // アクセントカラー（オレンジ）
-        secondary: '#FFFFFF', // セカンダリカラー（白）
-        accent: {
-          light: '#F8F8F8',  // ライトグレー
-          dark: '#4A6572',   // ダークグレー
+        primary: {
+          DEFAULT: '#F9AA33',
+          light: '#FBCB83',
+          dark: '#E09020'
         },
+        secondary: {
+          DEFAULT: '#4A6572',
+          light: '#718792',
+          dark: '#344955'
+        },
+        accent: '#F8F8F8'
       },
       fontFamily: {
         sans: ['Noto Sans JP', 'sans-serif'],
-        serif: ['Noto Serif JP', 'serif'],
       },
     },
   },
