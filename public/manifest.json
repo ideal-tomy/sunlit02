@@ -1,0 +1,25 @@
+{
+    "short_name": "〇〇鍼灸院",
+    "name": "心と体の調和を大切にする鍼灸院",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#4A6572",
+    "background_color": "#F8F8F8"
+  }
